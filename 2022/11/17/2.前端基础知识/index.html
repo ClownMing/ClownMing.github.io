@@ -1,99 +1,317 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="zh-Hans">
+
 <head>
-  <meta charset="utf-8">
-  
-  
-  <title>ClownMing的幸福生活</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="硅谷通用权限系统：前端基础知识一、前端开发和前端开发工具1、前端开发介绍前端工程师“Front-End-Developer”源自于美国。大约从2005年开始正式的前端工程师角色被行业所认可，到了2010年，互联网开始全面进入移动时代，前端开发的工作越来越重要。 最初所有的开发工作都是由后端工程师完成的，随着业务越来越繁杂，工作量变大，于是我们将项目中的可视化部分和一部分交互功能的开发工作剥离出来，">
+    
+    <title>ClownMing的幸福生活</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="硅谷通用权限系统：前端基础知识一、前端开发和前端开发工具1、前端开发介绍前端工程师“Front-End-Developer”源自于美国。大约从2005年开始正式的前端工程师角色被行业所认可，到了2010年，互联网开始全面进入移动时代，前端开发的工作越来越重要。 最初所有的开发工作都是由后端工程师完成的，随着业务越来越繁杂，工作量变大，于是我们将项目中的可视化部分和一部分交互功能的开发工作剥离出来，">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ClownMing的幸福生活">
-<meta property="og:url" content="http://example.com/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html">
+<meta property="og:url" content="https://github.com/ClownMing/ClownMing.github.io/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/index.html">
 <meta property="og:site_name" content="ClownMing的幸福生活">
 <meta property="og:description" content="硅谷通用权限系统：前端基础知识一、前端开发和前端开发工具1、前端开发介绍前端工程师“Front-End-Developer”源自于美国。大约从2005年开始正式的前端工程师角色被行业所认可，到了2010年，互联网开始全面进入移动时代，前端开发的工作越来越重要。 最初所有的开发工作都是由后端工程师完成的，随着业务越来越繁杂，工作量变大，于是我们将项目中的可视化部分和一部分交互功能的开发工作剥离出来，">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png">
-<meta property="og:image" content="http://example.com/images%5Cimage-20220912135245077.png">
-<meta property="og:image" content="http://example.com/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220222094939898.png">
+<meta property="og:locale">
+<meta property="og:image" content="https://github.com/ClownMing/ClownMing.github.io/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png">
+<meta property="og:image" content="https://github.com/ClownMing/ClownMing.github.io/images%5Cimage-20220912135245077.png">
+<meta property="og:image" content="https://github.com/ClownMing/ClownMing.github.io/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220222094939898.png">
 <meta property="article:published_time" content="2022-11-17T02:54:23.204Z">
 <meta property="article:modified_time" content="2022-09-12T09:15:37.581Z">
 <meta property="article:author" content="ClownMing">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png">
-  
-    <link rel="alternate" href="/atom.xml" title="ClownMing的幸福生活" type="application/atom+xml">
-  
-  
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+<meta name="twitter:image" content="https://github.com/ClownMing/ClownMing.github.io/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png">
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+<link rel="stylesheet" href="/ClownMing/ClownMing.github.io/lib/fancybox/fancybox.css">
+<link rel="stylesheet" href="/ClownMing/ClownMing.github.io/lib/mdui_043tiny/mdui.css">
 
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-  
+    <link rel="stylesheet" href="/ClownMing/ClownMing.github.io/lib/iconfont/iconfont.css?v=1668656650415">
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/ClownMing/ClownMing.github.io/css/style.css?v=1668656650415">
 
-  
+    
+        
+            <link rel="stylesheet" href="/ClownMing/ClownMing.github.io/custom.css?v=1668656650415">
+        
+    
 <meta name="generator" content="Hexo 6.3.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">ClownMing的幸福生活</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">白嫖是程序员的标配!</a>
-        </h2>
-      
+<body class="mdui-drawer-body-left">
+    <div id="nexmoe-background">
+        <div class="nexmoe-bg" style="background-image: url(https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png)"></div>
+        <div class="mdui-appbar mdui-shadow-0">
+            <div class="mdui-toolbar">
+                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+                <div class="mdui-toolbar-spacer"></div>
+                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+                <a href="/ClownMing/ClownMing.github.io/" title="ClownMing" class="mdui-btn mdui-btn-icon"><img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="ClownMing"></a>
+            </div>
+        </div>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
+    <div id="nexmoe-header">
+        <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/ClownMing/ClownMing.github.io/" title="ClownMing">
+            <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="ClownMing" alt="ClownMing">
+        </a>
     </div>
-  </div>
-</header>
+    <div class="nexmoe-count">
+        <div><span>Articles</span>1</div>
+        <div><span>Tags</span>0</div>
+        <div><span>Categories</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/ClownMing/ClownMing.github.io/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/ClownMing/ClownMing.github.io/archive.html" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/ClownMing/ClownMing.github.io/PY.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/ClownMing/ClownMing.github.io/donate.html" title="给我赞助">
+            <i class="mdui-list-item-icon nexmoefont icon-coffee"></i>
+            <div class="mdui-list-item-content">
+                给我赞助
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/ClownMing/ClownMing.github.io/about.html" title="关于博主">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博主
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+    
+        
+        <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+         
+            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
+                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
+            </form>
+         
+    </div>
+</div>
 
-      <div class="outer">
-        <section id="main"><article id="post-2.前端基础知识" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="article-date">
-  <time class="dt-published" datetime="2022-11-17T02:54:23.204Z" itemprop="datePublished">2022-11-17</time>
-</a>
+
+
+
     
+        
+        <div class="nexmoe-widget-wrap">
+	<div class="nexmoe-widget nexmoe-social">
+		<a
+			class="mdui-ripple"
+			href="https://jq.qq.com/?_wv=1027&k=5CfKHun"
+			target="_blank"
+			mdui-tooltip="{content: 'QQ群'}"
+			style="
+				color: rgb(249, 174, 8);
+				background-color: rgba(249, 174, 8, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-QQ"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://space.bilibili.com/20238211"
+			target="_blank"
+			mdui-tooltip="{content: '哔哩哔哩'}"
+			style="
+				color: rgb(231, 106, 141);
+				background-color: rgba(231, 106, 141, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-bilibili"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://github.com/nexmoe/"
+			target="_blank"
+			mdui-tooltip="{content: 'GitHub'}"
+			style="
+				color: rgb(25, 23, 23);
+				background-color: rgba(25, 23, 23, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-github"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://www.zhihu.com/people/nexmoe"
+			target="_blank"
+			mdui-tooltip="{content: '知乎'}"
+			style="
+				color: rgb(30, 136, 229);
+				background-color: rgba(30, 136, 229, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-zhihu"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://twitter.com/nexmoe"
+			target="_blank"
+			mdui-tooltip="{content: 'Twitter'}"
+			style="
+				color: rgb(59, 151, 239);
+				background-color: rgba(59, 151, 239, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-twitter"
+			></i> </a
+		><a
+			class="mdui-ripple"
+			href="https://nexmoe.com/atom.xml"
+			target="_blank"
+			mdui-tooltip="{content: 'RSS'}"
+			style="
+				color: rgb(247, 132, 34);
+				background-color: rgba(247, 132, 34, .1);
+			"
+		>
+			<i
+				class="nexmoefont icon-rss"
+			></i> </a
+		>
+	</div>
+</div>
+
+    
+        
+        
+
+    
+        
+        
+    
+        
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Archive</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/ClownMing/ClownMing.github.io/archives/2022/">2022</a><span class="archive-list-count">1</span></li></ul>
+    </div>
   </div>
-  <div class="article-inner">
+
+
+
+    
+        
+        
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">Recent Posts</h3>
+    <div class="nexmoe-widget">
+      <ul>
+        
+          <li>
+            <a href="/ClownMing/ClownMing.github.io/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+    
+        
+        <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-link">
+		<ul>
+        
+            <li>
+                <a href="https://xiaoshu.app/" target="_blank" >
+                    <img src="https://xsm.nexmoe.com/images/Infinite/Snipaste_2022-05-18_20-46-50.png" alt="小舒同学"></img>
+                    <p>小舒同学</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="https://nexmoe.com/" target="_blank" >
+                    <img src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/avatar.png" alt="折影轻梦"></img>
+                    <p>折影轻梦</p>
+                </a>
+            </li>
+        
+		</ul>
+    </div>
+</div>
+<style>
+.nexmoe-widget-wrap .nexmoe-link ul li a {
+    text-align : center;
+}
+.nexmoe-widget-wrap .nexmoe-link ul li a img {
+    max-width : 100%;
+}
+.nexmoe-widget-wrap .nexmoe-link ul li a p {
+    margin: 10px 0;
+}
+</style>
+
+    
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2022 ClownMing
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+        <br><a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2020018486号</a> <br><a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"> <img src="https://i.dawnlab.me/c0268c1e6cfd0863d6ba35be1575941a.png" width="150px"></a>
+    </div>
+</div><!-- .nexmoe-drawer -->
+    </div>
+    <div id="nexmoe-content">
+        <div class="nexmoe-primary">
+            <div class="nexmoe-post">
+
+  <article>
+    
+        <div class="nexmoe-post-cover"> 
+            <img src="https://i.dawnlab.me/b5a7e61560facdd5b8aa9683fce147d7.png" alt="" loading="lazy">
+            <h1></h1>
+        </div>
     
     
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="硅谷通用权限系统：前端基础知识"><a href="#硅谷通用权限系统：前端基础知识" class="headerlink" title="硅谷通用权限系统：前端基础知识"></a>硅谷通用权限系统：前端基础知识</h1><h2 id="一、前端开发和前端开发工具"><a href="#一、前端开发和前端开发工具" class="headerlink" title="一、前端开发和前端开发工具"></a>一、前端开发和前端开发工具</h2><h2 id="1、前端开发介绍"><a href="#1、前端开发介绍" class="headerlink" title="1、前端开发介绍"></a>1、前端开发介绍</h2><p>前端工程师“Front-End-Developer”源自于美国。大约从2005年开始正式的前端工程师角色被行业所认可，到了2010年，互联网开始全面进入移动时代，前端开发的工作越来越重要。</p>
+    <div class="nexmoe-post-meta">
+    <div class="nexmoe-rainbow">
+        <a class="nexmoefont icon-calendar-fill">2022年11月17日</a>
+        
+        
+    </div>
+    
+    
+    
+    
+    
+</div>
+
+    <h1 id="硅谷通用权限系统：前端基础知识"><a href="#硅谷通用权限系统：前端基础知识" class="headerlink" title="硅谷通用权限系统：前端基础知识"></a>硅谷通用权限系统：前端基础知识</h1><h2 id="一、前端开发和前端开发工具"><a href="#一、前端开发和前端开发工具" class="headerlink" title="一、前端开发和前端开发工具"></a>一、前端开发和前端开发工具</h2><h2 id="1、前端开发介绍"><a href="#1、前端开发介绍" class="headerlink" title="1、前端开发介绍"></a>1、前端开发介绍</h2><p>前端工程师“Front-End-Developer”源自于美国。大约从2005年开始正式的前端工程师角色被行业所认可，到了2010年，互联网开始全面进入移动时代，前端开发的工作越来越重要。</p>
 <p>最初所有的开发工作都是由后端工程师完成的，随着业务越来越繁杂，工作量变大，于是我们将项目中的可视化部分和一部分交互功能的开发工作剥离出来，形成了前端开发。</p>
 <p>由于互联网行业的急速发展，导致了在不同的国家，有着截然不同的分工体制。</p>
 <p>在日本和一些人口比较稀疏的国家，例如加拿大、澳大利亚等，流行“Full-Stack Engineer”，也就是我们通常所说的全栈工程师。通俗点说就是一个人除了完成前端开发和后端开发工作以外，有的公司从产品设计到项目开发再到后期运维可能都是同一个人，甚至可能还要负责UI、配动画，也可以是扫地、擦窗、写文档、维修桌椅等等。</p>
@@ -102,7 +320,7 @@
 <p>PRD（产品原型-产品经理） - PSD（视觉设计-UI工程师） - HTML&#x2F;CSS&#x2F;JavaScript（PC&#x2F;移动端网页，实现网页端的视觉展示和交互-前端工程师）</p>
 <h2 id="2、下载和安装VS-Code"><a href="#2、下载和安装VS-Code" class="headerlink" title="2、下载和安装VS Code"></a>2、下载和安装VS Code</h2><h3 id="2-1、下载地址"><a href="#2-1、下载地址" class="headerlink" title="2.1、下载地址"></a>2.1、下载地址</h3><p><a target="_blank" rel="noopener" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
 <h3 id="2-2、插件安装"><a href="#2-2、插件安装" class="headerlink" title="2.2、插件安装"></a>2.2、插件安装</h3><p>为方便后续开发，建议安装如下插件</p>
-<p><img src="/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png" alt="image-20220225153946727"></p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/ClownMing/ClownMing.github.io/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220225153946727.png" alt="image-20220225153946727" data-caption="image-20220225153946727" loading="lazy"></p>
 <h3 id="2-3、创建项目"><a href="#2-3、创建项目" class="headerlink" title="2.3、创建项目"></a>2.3、创建项目</h3><p>vscode本身没有新建项目的选项，所以要先创建一个空的文件夹，如project_xxxx。</p>
 <p>然后打开vscode，再在vscode里面选择 File -&gt; Open Folder 打开文件夹，这样才可以创建项目。</p>
 <h3 id="2-4、保存工作区"><a href="#2-4、保存工作区" class="headerlink" title="2.4、保存工作区"></a>2.4、保存工作区</h3><p>打开文件夹后，选择“文件 -&gt; 将工作区另存为…”，为工作区文件起一个名字，存储在刚才的文件夹下即可</p>
@@ -166,7 +384,7 @@
 
 <p><strong>设置仓库地址：</strong></p>
 <p>默认仓库地址是当前用户目录下，如果当前用户<strong>目录有中文</strong>，需要修改</p>
-<p><img src="/images%5Cimage-20220912135245077.png" alt="image-20220912135245077"></p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/ClownMing/ClownMing.github.io/images%5Cimage-20220912135245077.png" alt="image-20220912135245077" data-caption="image-20220912135245077" loading="lazy"></p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置全局安装：</span></span><br><span class="line">npm config set prefix D:\atguigu\node-global</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">配置缓存路径：</span></span><br><span class="line">npm config set cache D:\atguigu\node-cache</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">查看npm配置信息</span></span><br><span class="line">npm config list</span><br></pre></td></tr></table></figure>
 
 <h4 id="2-4、npm-install命令的使用"><a href="#2-4、npm-install命令的使用" class="headerlink" title="2.4、npm install命令的使用"></a>2.4、npm install命令的使用</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">使用 npm install 安装依赖包的最新版，</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">模块安装的位置：项目目录\node_modules</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">安装会自动在项目目录下添加 package-lock.json文件，这个文件帮助锁定安装包的版本</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">同时package.json 文件中，依赖包会被添加到dependencies节点下，类似maven中的 &lt;dependencies&gt;</span></span><br><span class="line">npm install jquery</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">npm管理的项目在备份和传输的时候一般不携带node_modules文件夹</span></span><br><span class="line">npm install #根据package.json中的配置下载依赖，初始化项目</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">如果安装时想指定特定的版本</span></span><br><span class="line">npm install jquery@2.1.x</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">局部安装</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">devDependencies节点：开发时的依赖包，项目打包到生产环境的时候不包含的依赖</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">使用 -D参数将依赖添加到devDependencies节点</span></span><br><span class="line">npm install --save-dev eslint</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">或</span></span><br><span class="line">npm install -D eslint</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">全局安装</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">Node.js全局安装的npm包和工具的位置：用户目录\AppData\Roaming\npm\node_modules</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">一些命令行工具常使用全局安装的方式</span></span><br><span class="line">npm install -g webpack</span><br><span class="line">            --global</span><br></pre></td></tr></table></figure>
@@ -176,7 +394,7 @@
 
 
 <h2 id="四、模块化开发（ES5）"><a href="#四、模块化开发（ES5）" class="headerlink" title="四、模块化开发（ES5）"></a>四、模块化开发（ES5）</h2><h3 id="1、模块化简介"><a href="#1、模块化简介" class="headerlink" title="1、模块化简介"></a>1、模块化简介</h3><h4 id="1-1、模块化产生的背景"><a href="#1-1、模块化产生的背景" class="headerlink" title="1.1、模块化产生的背景"></a>1.1、模块化产生的背景</h4><p>随着网站逐渐变成”互联网应用程序”，嵌入网页的Javascript代码越来越庞大，越来越复杂。</p>
-<p><img src="/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220222094939898.png" alt="image-20220222094939898"></p>
+<p><img onerror="imgOnError(this);" data-fancybox="gallery" src="/ClownMing/ClownMing.github.io/images/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/image-20220222094939898.png" alt="image-20220222094939898" data-caption="image-20220222094939898" loading="lazy"></p>
 <p>Javascript模块化编程，已经成为一个迫切的需求。理想情况下，开发者只需要实现核心的业务逻辑，其他都可以加载别人已经写好的模块。</p>
 <p>但是，Javascript不是一种模块化编程语言，它不支持”类”（class），包（package）等概念，更遑论”模块”（module）了。</p>
 <h4 id="1-2、什么是模块化开发"><a href="#1-2、什么是模块化开发" class="headerlink" title="1.2、什么是模块化开发"></a>1.2、什么是模块化开发</h4><p>传统非模块化开发有如下的缺点：</p>
@@ -245,113 +463,85 @@
 <h4 id="3-4、运行程序"><a href="#3-4、运行程序" class="headerlink" title="3.4、运行程序"></a>3.4、运行程序</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node dist2/userComponent2.js</span><br></pre></td></tr></table></figure>
 
 
+    <p><img data-fancybox="gallery" src="https://i.dawnlab.me/53a8c7cf3ad77a0f0a456ce2c6afe88a.png"  alt="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" data-caption="53a8c7cf3ad77a0f0a456ce2c6afe88a.png" loading="lazy"></p>
+  </article>
+
+  
       
+    <div class="nexmoe-post-copyright">
+        <strong>Author：</strong>ClownMing<br>
+        <strong>Link：</strong><a href="https://github.com/ClownMing/ClownMing.github.io/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" title="https:&#x2F;&#x2F;github.com&#x2F;ClownMing&#x2F;ClownMing.github.io&#x2F;2022&#x2F;11&#x2F;17&#x2F;2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;github.com&#x2F;ClownMing&#x2F;ClownMing.github.io&#x2F;2022&#x2F;11&#x2F;17&#x2F;2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
     </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" data-id="clakhia9c00007su61abia8cl" data-title="" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
+
+
   
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+   
     
-<nav id="article-nav">
-  
-  
-    <a href="/2022/11/16/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
+</div>
 
   
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/11/17/2.%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2022/11/16/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
+      <div class="nexmoe-post-footer">
+          请在你的配置文件中设置评论框插槽
       </div>
-      <footer id="footer">
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2022 ClownMing<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+</div>
+            <div class="nexmoe-post-right">
+              <div class="nexmoe-fixed">
+                  <div class="nexmoe-tool"> 
+                    
+                      
+                        
+                          
+                          
+                              <button class="mdui-fab catalog" style="overflow:unset;">
+                                  <i class="nexmoefont icon-i-catalog"></i>
+                                  <div class="nexmoe-toc">
+                                      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A1%85%E8%B0%B7%E9%80%9A%E7%94%A8%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F%EF%BC%9A%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="toc-number">1.</span> <span class="toc-text">硅谷通用权限系统：前端基础知识</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%92%8C%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7"><span class="toc-number">1.1.</span> <span class="toc-text">一、前端开发和前端开发工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.</span> <span class="toc-text">1、前端开发介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E4%B8%8B%E8%BD%BD%E5%92%8C%E5%AE%89%E8%A3%85VS-Code"><span class="toc-number">1.3.</span> <span class="toc-text">2、下载和安装VS Code</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1%E3%80%81%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80"><span class="toc-number">1.3.1.</span> <span class="toc-text">2.1、下载地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2%E3%80%81%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">1.3.2.</span> <span class="toc-text">2.2、插件安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3%E3%80%81%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.3.3.</span> <span class="toc-text">2.3、创建项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4%E3%80%81%E4%BF%9D%E5%AD%98%E5%B7%A5%E4%BD%9C%E5%8C%BA"><span class="toc-number">1.3.4.</span> <span class="toc-text">2.4、保存工作区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5%E3%80%81%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9%E5%92%8C%E7%BD%91%E9%A1%B5"><span class="toc-number">1.3.5.</span> <span class="toc-text">2.5、新建文件夹和网页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6%E3%80%81%E9%A2%84%E8%A7%88%E7%BD%91%E9%A1%B5"><span class="toc-number">1.3.6.</span> <span class="toc-text">2.6、预览网页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-7%E3%80%81%E8%AE%BE%E7%BD%AE%E5%AD%97%E4%BD%93%E5%A4%A7%E5%B0%8F"><span class="toc-number">1.3.7.</span> <span class="toc-text">2.7、设置字体大小</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Node-js"><span class="toc-number">1.4.</span> <span class="toc-text">二、Node.js</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81Node-js%E7%AE%80%E4%BB%8B"><span class="toc-number">1.4.1.</span> <span class="toc-text">1、Node.js简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFNode-js"><span class="toc-number">1.4.1.1.</span> <span class="toc-text">1.1、什么是Node.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2%E3%80%81Node-js%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8"><span class="toc-number">1.4.1.2.</span> <span class="toc-text">1.2、Node.js有什么用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81Node-js%E5%AE%89%E8%A3%85"><span class="toc-number">1.4.2.</span> <span class="toc-text">2、Node.js安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E3%80%81%E4%B8%8B%E8%BD%BD"><span class="toc-number">1.4.2.1.</span> <span class="toc-text">2.1、下载</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2%E3%80%81%E5%AE%89%E8%A3%85%E5%92%8C%E6%9F%A5%E7%9C%8B%E7%89%88%E6%9C%AC"><span class="toc-number">1.4.2.2.</span> <span class="toc-text">2.2、安装和查看版本</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8"><span class="toc-number">1.4.3.</span> <span class="toc-text">3、简单入门</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4%E3%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%EF%BC%88%E4%BA%86%E8%A7%A3%EF%BC%89"><span class="toc-number">1.4.4.</span> <span class="toc-text">4、服务器端应用开发（了解）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81NPM"><span class="toc-number">1.5.</span> <span class="toc-text">三、NPM</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81NPM%E7%AE%80%E4%BB%8B"><span class="toc-number">1.5.1.</span> <span class="toc-text">1、NPM简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFNPM"><span class="toc-number">1.5.1.1.</span> <span class="toc-text">1.1、什么是NPM</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2%E3%80%81NPM%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AE%89%E8%A3%85%E4%BD%8D%E7%BD%AE"><span class="toc-number">1.5.1.2.</span> <span class="toc-text">1.2、NPM工具的安装位置</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81%E4%BD%BF%E7%94%A8npm%E7%AE%A1%E7%90%86%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.5.2.</span> <span class="toc-text">2、使用npm管理项目</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E3%80%81%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9npm"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">2.1、创建文件夹npm</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2%E3%80%81%E9%A1%B9%E7%9B%AE%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">2.2、项目初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3%E3%80%81%E4%BF%AE%E6%94%B9npm%E9%95%9C%E5%83%8F%E5%92%8C%E4%BB%93%E5%BA%93"><span class="toc-number">1.5.2.3.</span> <span class="toc-text">2.3、修改npm镜像和仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4%E3%80%81npm-install%E5%91%BD%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">1.5.2.4.</span> <span class="toc-text">2.4、npm install命令的使用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-5%E3%80%81%E5%85%B6%E5%AE%83%E5%91%BD%E4%BB%A4"><span class="toc-number">1.5.2.5.</span> <span class="toc-text">2.5、其它命令</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91%EF%BC%88ES5%EF%BC%89"><span class="toc-number">1.6.</span> <span class="toc-text">四、模块化开发（ES5）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81%E6%A8%A1%E5%9D%97%E5%8C%96%E7%AE%80%E4%BB%8B"><span class="toc-number">1.6.1.</span> <span class="toc-text">1、模块化简介</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1%E3%80%81%E6%A8%A1%E5%9D%97%E5%8C%96%E4%BA%A7%E7%94%9F%E7%9A%84%E8%83%8C%E6%99%AF"><span class="toc-number">1.6.1.1.</span> <span class="toc-text">1.1、模块化产生的背景</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-2%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AF%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91"><span class="toc-number">1.6.1.2.</span> <span class="toc-text">1.2、什么是模块化开发</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81ES5%E6%A8%A1%E5%9D%97%E5%8C%96"><span class="toc-number">1.6.2.</span> <span class="toc-text">2、ES5模块化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E3%80%81%E5%88%9B%E5%BB%BA%E2%80%9Cmodule%E2%80%9D%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">1.6.2.1.</span> <span class="toc-text">2.1、创建“module”文件夹</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2%E3%80%81%E5%AF%BC%E5%87%BA%E6%A8%A1%E5%9D%97"><span class="toc-number">1.6.2.2.</span> <span class="toc-text">2.2、导出模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3%E3%80%81%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="toc-number">1.6.2.3.</span> <span class="toc-text">2.3、导入模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4%E3%80%81%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.6.2.4.</span> <span class="toc-text">2.4、运行程序</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91%EF%BC%88ES6%EF%BC%89"><span class="toc-number">1.7.</span> <span class="toc-text">五、模块化开发（ES6）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1%E3%80%81ES6%E7%AE%80%E4%BB%8B"><span class="toc-number">1.7.1.</span> <span class="toc-text">1、ES6简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2%E3%80%81ES6%E6%A8%A1%E5%9D%97%E5%8C%96%E5%86%99%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89"><span class="toc-number">1.7.2.</span> <span class="toc-text">2、ES6模块化写法（一）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1%E3%80%81%E5%AF%BC%E5%87%BA%E6%A8%A1%E5%9D%97"><span class="toc-number">1.7.2.1.</span> <span class="toc-text">2.1、导出模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2%E3%80%81%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="toc-number">1.7.2.2.</span> <span class="toc-text">2.2、导入模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-3%E3%80%81%E5%AE%89%E8%A3%85Babel"><span class="toc-number">1.7.2.3.</span> <span class="toc-text">2.3、安装Babel</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-4%E3%80%81%E9%85%8D%E7%BD%AE-babelrc"><span class="toc-number">1.7.2.4.</span> <span class="toc-text">2.4、配置.babelrc</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-5%E3%80%81%E5%AE%89%E8%A3%85%E8%BD%AC%E7%A0%81%E5%99%A8"><span class="toc-number">1.7.2.5.</span> <span class="toc-text">2.5、安装转码器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-6%E3%80%81%E8%BD%AC%E7%A0%81"><span class="toc-number">1.7.2.6.</span> <span class="toc-text">2.6、转码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-7%E3%80%81%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.7.2.7.</span> <span class="toc-text">2.7、运行程序</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E3%80%81ES6%E6%A8%A1%E5%9D%97%E5%8C%96%E5%86%99%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89"><span class="toc-number">1.7.3.</span> <span class="toc-text">3、ES6模块化写法（二）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1%E3%80%81%E5%AF%BC%E5%87%BA%E6%A8%A1%E5%9D%97"><span class="toc-number">1.7.3.1.</span> <span class="toc-text">3.1、导出模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2%E3%80%81%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9D%97"><span class="toc-number">1.7.3.2.</span> <span class="toc-text">3.2、导入模块</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3%E3%80%81%E8%BD%AC%E7%A0%81"><span class="toc-number">1.7.3.3.</span> <span class="toc-text">3.3、转码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-4%E3%80%81%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F"><span class="toc-number">1.7.3.4.</span> <span class="toc-text">3.4、运行程序</span></a></li></ol></li></ol></li></ol></li></ol>
+                                  </div>
+                              </button>
+                          
+                          
+                      
+                    
+                      <a href="#nexmoe-content" class="toc-link" aria-label="Back To Top" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
+                  </div>
+              </div>
+            </div>
+        </div>
     </div>
-  </div>
-</footer>
+    <div id="nexmoe-search-space">
+	<div class="search-container">
+		<div class="search-header">
+			<div class="search-input-container">
+				<input
+					class="search-input"
+					type="text"
+					placeholder="Search"
+					oninput="sinput();"
+				/>
+			</div>
+			<a class="search-close" onclick="sclose();">×</a>
+		</div>
+		<div class="search-body"></div>
+	</div>
+</div>
 
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
+<script src="/ClownMing/ClownMing.github.io/lib/mdui_043tiny/mdui.js"></script>
+<script src="/ClownMing/ClownMing.github.io/lib/fancybox/fancybox.umd.js"></script>
 
 
-<script src="/js/jquery-3.4.1.min.js"></script>
+ 
 
+<script async src="/ClownMing/ClownMing.github.io/js/app.js?v=1668656650439"></script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2058306854838448" crossorigin="anonymous"></script>
 
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
 </body>
+
 </html>
